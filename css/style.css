@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Update thes fonts */
+@font-face {
+  font-family: "crashTypo";
+  src: url(../font/crash-a-like.ttf);
+}
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: blue;
+  font-size: 12px;
+}
+li {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  list-style: none;
+}
+
+/* Edit the header adn the nav */
+header {
+  height: 100vh;
+  background-image: linear-gradient(to left, rgba(255,255,255,0.4), transparent), url(../img/crash1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#logoTop {
+  width: 300px;
+  position: absolute;
+  top: 0;
+  left: 42%;
+}
+#menu {
+  width: 70px;
+  position: absolute;
+  right: 10%;
+  top: 5%;
+}
+#middleNavBar {
+  margin: 25px 0;
+  background-color: yellow;
+  height: 4px;
+}
+.sandwichNavBar {
+  background-color: yellow;
+  height: 4px;
+}
+#buttonBuyThis {
+  border-radius: 100vmax;
+  background-color: yellow;
+  width: 300px;
+  font-family: "crashTypo", sans-serif;
+  font-size: 50px;
+  color: white;
+  -webkit-text-stroke: 2px orange;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 3%;
+  border: solid 3px;
+  border-color: orange;
+}
+
+/* working on the first section */
+h2 {
+  font-family: "crashTypo", sans-serif;
+  color: #df9814;
+  font-size: 40px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.section75 {
+  width: 75%;
+  margin: auto;
+}
+.imgFloatL {
+  float: left;
+}
+#imgFloatR {
+  float: right;
+}
+.article1 {
+  width: 30rem;
+  height: auto;
+  margin: 2rem 0 0 6rem;
+}
+.image1 {
+  width: 220px;
+}
+
+.clear {
+  clear: both;
+}
+
+/* 2e section */
+#blueSection {
+  width: 100%;
+  background-color: navy;
+}
+h3 {
+  font-family: "crashTypo", sans-serif;
+  text-shadow: 2px 1px black;
+  color: yellow;
+  font-size: 35px;
+}
+
+#floatLeftInclined {
+  float: left;
+  margin: 6rem 9rem 0 15rem;
+  /* transform: rotate(-15deg); */
+}
+#floatRightInclined {
+  float: right;
+  /* transform: rotate(15deg); */
+  /* margin: 6rem 9rem 0 15rem; */
+  margin: 110px 0 0 0;
+}
+#runningCrash {
+  width: 15rem;
+  margin: 2rem 0;
+}
+#article2 {
+  width: 90%;
+  margin: auto;
+}
+/* Last section in the main body */
+#scowlingCrash {
+  width: 100%;
+}
+.direction {
+  font-size: 100px;
+  color: white;
+}
+#classRelative {
+  position: relative;
+}
+#left {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+}
+#right {
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+
+/* let do the footer :D */
+footer {
+  background-color: orange;
+  height: 25vh;
+}
+#footer80 {
+  width: 80%;
+  margin: auto;
+}
+#mask {
+  width: 100px;
+}
+#logoFooter {
+  width: 250px;
+}
+#navFooter {
+  width: 25%;
+  margin-left: 35%;
+  margin-top: 3%;
+  float: left;
+}
+.footerFloatL {
+  float: left;
+}
+#footerFloatR {
+  float: right;
+}
